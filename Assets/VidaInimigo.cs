@@ -4,18 +4,18 @@ public class VidaInimigo : MonoBehaviour
 {
     public int vida = 3;
 
-    public void ReceberDano(int dano)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        vida -= dano;
-
-        if (vida <= 0)
+        if (other.CompareTag("Tiro"))
         {
-            Morrer();
-        }
-    }
+            vida--;
 
-    void Morrer()
-    {
-        Destroy(gameObject);
+            Destroy(other.gameObject);
+
+            if (vida <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 }

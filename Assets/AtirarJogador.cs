@@ -3,11 +3,17 @@ using UnityEngine;
 public class AtirarJogador : MonoBehaviour
 {
     public GameObject prefabTiro;
-    public Transform pontoDeDisparo;
+    public Transform pontoDisparo;
+
+    private PlayerMovimento movimentoPlayer;
+
+    void Start()
+    {
+        movimentoPlayer = GetComponent<PlayerMovimento>();
+    }
 
     void Update()
     {
-        // Atira quando apertar a tecla M
         if (Input.GetKeyDown(KeyCode.M))
         {
             Atirar();
@@ -16,14 +22,19 @@ public class AtirarJogador : MonoBehaviour
 
     void Atirar()
     {
-        GameObject tiro = Instantiate(prefabTiro, pontoDeDisparo.position, Quaternion.identity);
+        if (prefabTiro == null || pontoDisparo == null)
+        {
+            Debug.LogError("PrefabTiro ou PontoDisparo NAO estao atribuidos!");
+            return;
+        }
 
-        // Direção do tiro conforme lado do player
+        GameObject tiro = Instantiate(prefabTiro, pontoDisparo.position, Quaternion.identity);
+
         Tiro scriptTiro = tiro.GetComponent<Tiro>();
 
-        if (transform.localScale.x >= 0)
-            scriptTiro.direcao = Vector2.right;
+        if (scriptTiro != null)
+            scriptTiro.DefinirDirecao(movimentoPlayer.EstaOlhandoDireita());
         else
-            scriptTiro.direcao = Vector2.left;
+            Debug.LogError("O prefab do tiro NAO tem o script Tiro!");
     }
 }

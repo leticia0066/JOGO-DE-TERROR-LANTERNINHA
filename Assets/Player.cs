@@ -1,12 +1,15 @@
 using UnityEngine;
 
-public class MovimentoPlayer : MonoBehaviour
+public class PlayerMovimento : MonoBehaviour
 {
     public float velocidade = 5f;
-    public float forcaPulo = 7f;
+    public float forcaPulo = 10f;
+    public Transform verificadorChao;
+    public LayerMask layerChao;
 
     private Rigidbody2D rb;
-    private bool noChao;
+    private bool olhandoDireita = true;
+    private bool estaNoChao;
 
     void Start()
     {
@@ -17,25 +20,35 @@ public class MovimentoPlayer : MonoBehaviour
     {
         float movimento = Input.GetAxisRaw("Horizontal");
 
-        // Move o player horizontalmente
         rb.linearVelocity = new Vector2(movimento * velocidade, rb.linearVelocity.y);
 
-        // Pula se estiver no chão e apertar espaço
-        if (Input.GetKeyDown(KeyCode.Space) && noChao)
-        {
-            rb.AddForce(Vector2.up * forcaPulo, ForceMode2D.Impulse);
-        }
+        // Verificar chao
+        estaNoChao = Physics2D.OverlapCircle(verificadorChao.position, 0.2f, layerChao);
+
+        // Pulo
+        if (Input.GetKeyDown(KeyCode.Space))
+{
+    Debug.Log("APERTEI ESPACO");
+}
+
+        // Virar personagem
+        if (movimento > 0 && !olhandoDireita)
+            Virar();
+        else if (movimento < 0 && olhandoDireita)
+            Virar();
     }
 
-    private void OnCollisionEnter2D(Collision2D colisao)
+    void Virar()
     {
-        if (colisao.collider.CompareTag("Chao"))
-            noChao = true;
+        olhandoDireita = !olhandoDireita;
+
+        Vector3 escala = transform.localScale;
+        escala.x *= -1;
+        transform.localScale = escala;
     }
 
-    private void OnCollisionExit2D(Collision2D colisao)
+    public bool EstaOlhandoDireita()
     {
-        if (colisao.collider.CompareTag("Chao"))
-            noChao = false;
+        return olhandoDireita;
     }
 }

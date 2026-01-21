@@ -8,6 +8,8 @@ TagManager:
   - Chao
   - inimigo
   - Inimigo
+  - Boss
+  - Tiro
   layers:
   - Default
   - TransparentFX
@@ -44,6 +46,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Chao
+    uniqueID: 497549765
     locked: 0
   m_RenderingLayers:
   - Default
