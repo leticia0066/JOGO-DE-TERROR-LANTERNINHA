@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/maria/OneDrive/Documentos/GitHub/JOGO-DE-TERROR-LANTERNINHA/Packages/manifest.json
+    m_FilePath: C:/Users/20221170150065/Documents/GitHub/JOGO-DE-TERROR-LANTERNINHA/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639035739491298489
-    m_Hash: 156548354
+      ticks: 639045032075947436
+    m_Hash: 467570312
   m_LockFileStatus:
-    m_FilePath: C:/Users/maria/OneDrive/Documentos/GitHub/JOGO-DE-TERROR-LANTERNINHA/Packages/packages-lock.json
+    m_FilePath: C:/Users/20221170150065/Documents/GitHub/JOGO-DE-TERROR-LANTERNINHA/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639035739491419565
-    m_Hash: 3760772459
+      ticks: 639045032075947436
+    m_Hash: 4134505661
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/maria/OneDrive/Documentos/GitHub/JOGO-DE-TERROR-LANTERNINHA/Packages
-m_EditorVersion: 6000.1.1f1 (7197418f847b)
+m_ProjectPath: C:/Users/20221170150065/Documents/GitHub/JOGO-DE-TERROR-LANTERNINHA/Packages
+m_EditorVersion: 6000.0.42f1 (feb9a7235030)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maria\OneDrive\Documentos\GitHub\JOGO-DE-TERROR-LANTERNINHA\Library\PackageCache\com.unity.2d.sprite@8e227b7a8e02
+  resolvedPath: C:\Users\20221170150065\Documents\GitHub\JOGO-DE-TERROR-LANTERNINHA\Library\PackageCache\com.unity.2d.sprite@072d7bd355e5
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -87,7 +87,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 8e227b7a8e02901a84d9678f982e6ae0efa3f5bb
+  fingerprint: 072d7bd355e55ee3ded20a6a52435a4f5fded0d8
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -97,7 +97,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\maria\OneDrive\Documentos\GitHub\JOGO-DE-TERROR-LANTERNINHA\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\20221170150065\Documents\GitHub\JOGO-DE-TERROR-LANTERNINHA\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -187,7 +187,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -254,7 +254,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -321,7 +321,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -387,7 +387,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -454,7 +454,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -521,7 +521,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -588,7 +588,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -659,7 +659,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -734,7 +734,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -801,7 +801,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -868,7 +868,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -935,7 +935,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1002,7 +1002,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1069,7 +1069,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1136,7 +1136,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1207,7 +1207,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1274,7 +1274,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1349,7 +1349,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1419,7 +1419,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1486,7 +1486,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1569,7 +1569,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -1636,7 +1636,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -1710,7 +1710,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -1777,7 +1777,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -1852,7 +1852,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -1927,7 +1927,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2002,7 +2002,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2093,7 +2093,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2164,7 +2164,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2243,7 +2243,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2324,7 +2324,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2391,7 +2391,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2470,7 +2470,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2541,7 +2541,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\6000.1.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -2603,4 +2603,4 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-m_BuiltInPackagesHash: 74a4db4a51baad66e41636c78bb8243cf73e9bc7
+m_BuiltInPackagesHash: 5cc2183adbed14326d9ff00e3ac2b5eedcc9d592

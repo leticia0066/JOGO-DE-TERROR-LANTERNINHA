@@ -4,11 +4,11 @@ public class PlayerMovimento : MonoBehaviour
 {
     public float velocidade = 5f;
     public float forcaPulo = 10f;
+
     public Transform verificadorChao;
     public LayerMask layerChao;
 
     private Rigidbody2D rb;
-    private bool olhandoDireita = true;
     private bool estaNoChao;
 
     void Start()
@@ -18,37 +18,17 @@ public class PlayerMovimento : MonoBehaviour
 
     void Update()
     {
-        float movimento = Input.GetAxisRaw("Horizontal");
-
+        // Movimento horizontal
+        float movimento = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(movimento * velocidade, rb.linearVelocity.y);
 
-        // Verificar chao
+        // Verifica se está no chão
         estaNoChao = Physics2D.OverlapCircle(verificadorChao.position, 0.2f, layerChao);
 
         // Pulo
-        if (Input.GetKeyDown(KeyCode.Space))
-{
-    Debug.Log("APERTEI ESPACO");
-}
-
-        // Virar personagem
-        if (movimento > 0 && !olhandoDireita)
-            Virar();
-        else if (movimento < 0 && olhandoDireita)
-            Virar();
-    }
-
-    void Virar()
-    {
-        olhandoDireita = !olhandoDireita;
-
-        Vector3 escala = transform.localScale;
-        escala.x *= -1;
-        transform.localScale = escala;
-    }
-
-    public bool EstaOlhandoDireita()
-    {
-        return olhandoDireita;
+        if (Input.GetKeyDown(KeyCode.Space) && estaNoChao)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo);
+        }
     }
 }
