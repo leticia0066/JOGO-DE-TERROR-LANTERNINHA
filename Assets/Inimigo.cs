@@ -1,28 +1,46 @@
 using UnityEngine;
 
-public class DetectorDeProximidade : MonoBehaviour
+public class Inimigo : MonoBehaviour
 {
-    public Transform player;        // Arraste o Player aqui
-    public float distanciaAviso = 3f;  // Distância em que a lanterna começa a tremer
+    public int vida = 3;
+    public float distanciaDeteccao = 3f;
+    public AudioClip somProximo;
+    private AudioSource audioSource;
+    private Transform player;
+    private bool somTocado = false;
 
-    public TremorLanterna tremorLanterna; // Referência ao script da lanterna
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        audioSource = gameObject.AddComponent<AudioSource>();
+    }
 
     void Update()
     {
-        if (player == null || tremorLanterna == null)
-            return;
-
-        // Calcula a distância até o player
         float distancia = Vector2.Distance(transform.position, player.position);
 
-        // Se o player está dentro da zona de aviso → faz a lanterna tremer
-        if (distancia <= distanciaAviso)
+        if (distancia <= distanciaDeteccao && !somTocado)
         {
-            tremorLanterna.AtivarTremor(true);
+            audioSource.PlayOneShot(somProximo);
+            somTocado = true;
         }
-        else
+        else if (distancia > distanciaDeteccao)
         {
-            tremorLanterna.AtivarTremor(false);
+            somTocado = false;
         }
+    }
+
+    public void ReceberDano(int dano)
+    {
+        vida -= dano;
+        if (vida <= 0)
+        {
+            Morrer();
+        }
+    }
+
+    void Morrer()
+    {
+        Destroy(gameObject);
     }
 }
